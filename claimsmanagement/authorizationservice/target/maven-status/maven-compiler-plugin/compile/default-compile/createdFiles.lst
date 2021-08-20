@@ -1,0 +1,15 @@
+com\cognizant\authorizationservice\service\UserDetailsServiceImpl.class
+com\cognizant\authorizationservice\repository\UserRepository.class
+com\cognizant\authorizationservice\exception\BadCredentialException.class
+com\cognizant\authorizationservice\model\AuthenticationResponse.class
+com\cognizant\authorizationservice\exception\Error.class
+com\cognizant\authorizationservice\exception\GlobalExceptionHandler.class
+com\cognizant\authorizationservice\JwtAuthenticationApplication.class
+com\cognizant\authorizationservice\exception\LoginException.class
+com\cognizant\authorizationservice\model\MyUser.class
+com\cognizant\authorizationservice\service\JwtUtilService.class
+com\cognizant\authorizationservice\service\ValidateService.class
+com\cognizant\authorizationservice\model\AuthenticationRequest.class
+com\cognizant\authorizationservice\config\SecurityConfigurer.class
+com\cognizant\authorizationservice\controller\AuthenticationController.class
+com\cognizant\authorizationservice\filter\JwtRequestFilter.class

@@ -1,0 +1,8 @@
+com.cognizant.policymicroservice
+com.cognizant.policymicroservice.client
+com.cognizant.policymicroservice.controller
+com.cognizant.policymicroservice.exception
+com.cognizant.policymicroservice.model
+com.cognizant.policymicroservice.repository
+com.cognizant.policymicroservice.service
+com.cognizant.policymicroservice.swagger

@@ -1,0 +1,18 @@
+.card-header{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(128, 128, 128);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.dash{
+    border: 3px solid gray;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10px;
+
+}
+body{
+    background-image: linear-gradient(to right, rgb(241, 243, 142) , rgb(115, 241, 168));
+}

@@ -1,0 +1,33 @@
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.full-width{
+    width: 100%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #3a3737;
+    text-align: left;
+    padding: 8px;
+  }
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid aqua;
+    box-sizing: border-box;
+    border-radius: 25px;
+    
+  }

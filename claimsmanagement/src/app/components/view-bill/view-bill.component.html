@@ -1,0 +1,57 @@
+<body class="bg">
+<div class="bootstrap-wrapper">
+    <div class="container mt">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="container text-center">
+                    <img class="img-fluid" style="width: 100px;" src="/assets/login.jpg" alt="Login Image">
+                </div>
+                <h1 class="text-center">View Bills!!!</h1>
+                <div class="full-width">
+                    <label>Member Id</label>
+                    <input [(ngModel)]="Bill.memberId" name="memberId" type="text"required #memberId="ngModel" [class.is-invalid]="memberId.valid && memberId.untouched">
+                        
+                    <small style="color: red; margin-left: 30px;" [class.d-none]="memberId.valid || memberId.untouched">MemberId is required</small>
+                </div><br><br>
+                <div class="full-width">
+                    <label>Policy Id</label>
+                    <input [(ngModel)]="Bill.policyId" name="policyId" type="text"required #policyId="ngModel" [class.is-invalid]="policyId.valid && policyId.untouched">
+                        
+                    <small style="color: red; margin-left: 30px;" [class.d-none]="policyId.valid || policyId.untouched">PolicyId is required</small>
+                </div>
+                <div class="container text-center">
+                        <button type="submit" mat-raised-button color="primary" (click)="getSubmit()">
+                            Submit
+                        </button><br><br><h1 style="color: red;">{{msg}}</h1>
+                        <br>
+                </div>
+                <div >
+                    <table  border="2" class="table">
+                        <tr>
+                            
+                            <th>Paid Date &nbsp; &nbsp;  </th>
+                            <th>Due Date &nbsp; &nbsp;</th>
+                            <th>Premium &nbsp; &nbsp;</th>
+                            <th>Late Payment &nbsp; &nbsp; &nbsp;</th>
+                            <th>Late Payment charges &nbsp; &nbsp;</th>
+                        </tr>
+                        <tr >
+                            
+                            <td>{{p.paidDate}}</td>
+                            <td>{{p.dueDate}}</td>
+                            <td>{{p.premium}}</td>
+                            <td>{{p.latePayment}}</td>
+                            <td>{{p.latePaymentCharges}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+</body>
+<script>
+    function myFunction() {
+      document.getElementById("table").style.visibility = "visibility";
+    }
+</script>
